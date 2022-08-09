@@ -40,7 +40,7 @@
             // 所得金額が195万円以下
             case $income_amount <= 1950000;
             $tax_rate = 5;
-            echo ("税率:" . $tax_rate . "パーセント" ); 
+            echo ("税率:" . $tax_rate . "\%" ); 
             echo '<br>';
             $income_tax = $income_amount * ($tax_rate / 100);
             echo ("所得税:");
